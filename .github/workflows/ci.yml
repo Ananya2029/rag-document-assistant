@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build the index (chunk + embed the PDFs)
+        run: python -m rag.ingest
+      - name: Retrieval evaluation (no LLM needed)
+        run: python -m rag.evaluate --retrieval-only
+      - name: Tests (LLM calls are stubbed)
+        run: python -m pytest -q

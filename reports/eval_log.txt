@@ -1,0 +1,68 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1485.22it/s]
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1508.81it/s]
+{
+  "keyword": {
+    "hit@1": 0.391,
+    "hit@3": 0.565,
+    "hit@5": 0.696,
+    "mrr": 0.501
+  },
+  "dense": {
+    "hit@1": 0.478,
+    "hit@3": 0.739,
+    "hit@5": 0.783,
+    "mrr": 0.612
+  },
+  "hybrid": {
+    "hit@1": 0.478,
+    "hit@3": 0.696,
+    "hit@5": 0.783,
+    "mrr": 0.597
+  },
+  "rerank": {
+    "hit@1": 0.609,
+    "hit@3": 0.783,
+    "hit@5": 0.826,
+    "mrr": 0.697
+  }
+}
+  [ 1] recall 1.00 gold-cite True   83.2s  What are the four functions of the AI RMF Core?
+  [ 2] recall 1.00 gold-cite True   64.2s  Which characteristics make an AI system trustworthy accordin
+  [ 3] recall 1.00 gold-cite True   60.1s  What three major categories of AI bias does NIST identify?
+  [ 4] recall 1.00 gold-cite True   54.8s  What is the difference between explainability and interpreta
+  [ 5] recall 1.00 gold-cite False  54.9s  What does TEVV stand for?
+  [ 6] recall 0.00 gold-cite True   63.9s  Why are AI systems described as socio-technical?
+  [ 7] recall 1.00 gold-cite True   67.1s  When was AI RMF 1.0 published?
+  [ 8] recall 1.00 gold-cite True   73.7s  What does the MEASURE function do?
+  [ 9] recall 1.00 gold-cite True   64.0s  What kind of culture does the GOVERN function cultivate?
+  [10] recall 1.00 gold-cite False  70.4s  After GOVERN, which function would most users of the AI RMF 
+  [11] recall 1.00 gold-cite False  62.7s  Does the AI RMF prescribe a risk tolerance for organizations
+  [12] recall 1.00 gold-cite True   71.8s  What is confabulation in generative AI?
+  [13] recall 1.00 gold-cite True   62.4s  What four primary considerations did the Generative AI Publi
+  [14] recall 0.00 gold-cite False  40.9s  What does the CBRN information risk refer to?
+  [15] recall 1.00 gold-cite False  88.5s  What are the environmental impacts of generative AI?
+  [16] recall 1.00 gold-cite True   56.4s  What is meant by harmful bias or homogenization?
+  [17] recall 0.00 gold-cite False  71.6s  What is the information integrity risk of generative AI?
+  [18] recall 1.00 gold-cite False  63.6s  What does value chain and component integration risk mean?
+  [19] recall 0.50 gold-cite True   72.8s  What intellectual property risks does generative AI create?
+  [20] recall 0.00 gold-cite False  65.2s  How does NIST group the generative AI risks into categories?
+  [21] recall 0.00 gold-cite False  67.0s  What does the human-AI configuration risk involve?
+  [22] recall 0.00 gold-cite False  63.8s  What suggested action uses adversarial role-playing or chaos
+  [23] recall 0.50 gold-cite True   68.9s  Which obscene, degrading or abusive content risks are descri
+  [24] declined True   58.6s  What is the capital of Australia?
+  [25] declined True   63.0s  What fines does the EU AI Act impose for violations?
+  [26] declined True   97.1s  Which GPU does NIST recommend for training large language mo
+  [27] declined True  128.6s  What was Infineon's revenue in 2023?
+  [28] declined True   84.0s  Who won the 2022 FIFA World Cup?
+  [29] declined True   51.5s  What is the annual budget of NIST?
+{
+  "answerable_questions": 23,
+  "keyword_recall": 0.696,
+  "fully_correct_answers": 0.652,
+  "answers_with_citation": 0.87,
+  "citation_accuracy": 0.565,
+  "wrongly_declined": 0.13,
+  "unanswerable_questions": 6,
+  "correctly_declined": 1.0,
+  "median_seconds_per_answer": 64.2
+}

@@ -1,0 +1,42 @@
+{
+  "retrieval": {
+    "keyword": {
+      "hit@1": 0.391,
+      "hit@3": 0.565,
+      "hit@5": 0.696,
+      "mrr": 0.501
+    },
+    "dense": {
+      "hit@1": 0.478,
+      "hit@3": 0.739,
+      "hit@5": 0.783,
+      "mrr": 0.612
+    },
+    "hybrid": {
+      "hit@1": 0.478,
+      "hit@3": 0.696,
+      "hit@5": 0.783,
+      "mrr": 0.597
+    },
+    "rerank": {
+      "hit@1": 0.609,
+      "hit@3": 0.783,
+      "hit@5": 0.826,
+      "mrr": 0.697
+    }
+  },
+  "n_questions": 23,
+  "llm": "ollama:qwen2.5:3b",
+  "answers": {
+    "answerable_questions": 23,
+    "keyword_recall": 0.696,
+    "fully_correct_answers": 0.652,
+    "answers_with_citation": 0.87,
+    "citation_accuracy": 0.565,
+    "wrongly_declined": 0.13,
+    "unanswerable_questions": 6,
+    "correctly_declined": 1.0,
+    "median_seconds_per_answer": 64.2
+  },
+  "eval_minutes": 33.3
+}

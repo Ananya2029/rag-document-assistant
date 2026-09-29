@@ -1,0 +1,292 @@
+{
+  "_about": "Hand-written evaluation set. gold = PDF pages (1-based) containing the answer; keywords = facts a correct answer must mention (lower-case; 'a|b' means either). Unanswerable questions are outside the documents, so the assistant should decline. Gold pages include both the short definition list (pp. 8-9 of NIST AI 600-1) and each risk's detailed section 2.x.",
+  "answerable": [
+    {
+      "q": "What are the four functions of the AI RMF Core?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        8,
+        25
+      ],
+      "keywords": [
+        "govern",
+        "map",
+        "measure",
+        "manage"
+      ]
+    },
+    {
+      "q": "Which characteristics make an AI system trustworthy according to the AI RMF?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        8,
+        17
+      ],
+      "keywords": [
+        "valid",
+        "reliable",
+        "safe",
+        "secure",
+        "accountable",
+        "transparent",
+        "explainable",
+        "privacy",
+        "fair"
+      ]
+    },
+    {
+      "q": "What three major categories of AI bias does NIST identify?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        23
+      ],
+      "keywords": [
+        "systemic",
+        "computational",
+        "human-cognitive|human cognitive"
+      ]
+    },
+    {
+      "q": "What is the difference between explainability and interpretability?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        21
+      ],
+      "keywords": [
+        "mechanism",
+        "meaning"
+      ]
+    },
+    {
+      "q": "What does TEVV stand for?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        14
+      ],
+      "keywords": [
+        "test",
+        "evaluation",
+        "verification",
+        "validation"
+      ]
+    },
+    {
+      "q": "Why are AI systems described as socio-technical?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        6
+      ],
+      "keywords": [
+        "societal",
+        "human behavior|human behaviour"
+      ]
+    },
+    {
+      "q": "When was AI RMF 1.0 published?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        2
+      ],
+      "keywords": [
+        "january 2023"
+      ]
+    },
+    {
+      "q": "What does the MEASURE function do?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        33
+      ],
+      "keywords": [
+        "quantitative",
+        "qualitative",
+        "monitor|analyze|assess"
+      ]
+    },
+    {
+      "q": "What kind of culture does the GOVERN function cultivate?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        26
+      ],
+      "keywords": [
+        "risk management"
+      ]
+    },
+    {
+      "q": "After GOVERN, which function would most users of the AI RMF start with?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        26
+      ],
+      "keywords": [
+        "map"
+      ]
+    },
+    {
+      "q": "Does the AI RMF prescribe a risk tolerance for organizations?",
+      "doc": "NIST.AI.100-1.pdf",
+      "gold": [
+        12
+      ],
+      "keywords": [
+        "not|no"
+      ]
+    },
+    {
+      "q": "What is confabulation in generative AI?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        8,
+        10
+      ],
+      "keywords": [
+        "false|erroneous",
+        "hallucination|confidently"
+      ]
+    },
+    {
+      "q": "What four primary considerations did the Generative AI Public Working Group focus on?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        6
+      ],
+      "keywords": [
+        "governance",
+        "content provenance",
+        "pre-deployment testing",
+        "incident disclosure"
+      ]
+    },
+    {
+      "q": "What does the CBRN information risk refer to?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        8,
+        9,
+        10
+      ],
+      "keywords": [
+        "chemical",
+        "biological",
+        "radiological|nuclear"
+      ]
+    },
+    {
+      "q": "What are the environmental impacts of generative AI?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        8,
+        12
+      ],
+      "keywords": [
+        "compute|energy|resource"
+      ]
+    },
+    {
+      "q": "What is meant by harmful bias or homogenization?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        8,
+        12,
+        13
+      ],
+      "keywords": [
+        "bias",
+        "disparit|homogen"
+      ]
+    },
+    {
+      "q": "What is the information integrity risk of generative AI?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        8,
+        13,
+        14
+      ],
+      "keywords": [
+        "fact",
+        "opinion|fiction|misinformation|disinformation"
+      ]
+    },
+    {
+      "q": "What does value chain and component integration risk mean?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        9,
+        16,
+        17
+      ],
+      "keywords": [
+        "third-party|third party",
+        "component"
+      ]
+    },
+    {
+      "q": "What intellectual property risks does generative AI create?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        9,
+        15
+      ],
+      "keywords": [
+        "copyright",
+        "trademark|licensed"
+      ]
+    },
+    {
+      "q": "How does NIST group the generative AI risks into categories?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        7
+      ],
+      "keywords": [
+        "technical|model",
+        "misuse",
+        "ecosystem|societal"
+      ]
+    },
+    {
+      "q": "What does the human-AI configuration risk involve?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        8,
+        13
+      ],
+      "keywords": [
+        "over-reliance|overreliance|emotional|anthropomorph"
+      ]
+    },
+    {
+      "q": "What suggested action uses adversarial role-playing or chaos testing?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        31
+      ],
+      "keywords": [
+        "red-team|red team"
+      ]
+    },
+    {
+      "q": "Which obscene, degrading or abusive content risks are described for generative AI?",
+      "doc": "NIST.AI.600-1.pdf",
+      "gold": [
+        9,
+        15,
+        16
+      ],
+      "keywords": [
+        "imagery|image",
+        "abusive|degrading"
+      ]
+    }
+  ],
+  "unanswerable": [
+    "What is the capital of Australia?",
+    "What fines does the EU AI Act impose for violations?",
+    "Which GPU does NIST recommend for training large language models?",
+    "What was Infineon's revenue in 2023?",
+    "Who won the 2022 FIFA World Cup?",
+    "What is the annual budget of NIST?"
+  ]
+}
